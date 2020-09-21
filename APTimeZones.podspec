@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name         = 'APTimeZones'
   s.version      = '1.1'
-  s.platform     = :ios, '6.0'
-  s.platform     = :osx, '10.12'
+  s.ios.deployment_target = '13.0'
+  s.osx.deployment_target = '10.13'
   s.homepage     = 'https://github.com/Alterplay/APTimeZones'
   s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.summary      = 'The easiest way to get NSTimeZone from CLLocation from @Alterplay folks'
